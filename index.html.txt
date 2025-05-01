@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>D-Sync Inventory Management</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header { background: #003366; color: #fff; padding: 20px 0; text-align: center; }
+    nav { background: #005599; text-align: center; }
+    nav a { color: white; padding: 15px; display: inline-block; text-decoration: none; }
+    nav a:hover { background: #003366; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .hero { background: #e0f2ff; text-align: center; padding: 60px 20px; }
+    .hero h1 { margin-bottom: 20px; }
+    .grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+    footer { background: #003366; color: white; text-align: center; padding: 20px; }
+    form input, form textarea { width: 100%; padding: 10px; margin: 5px 0 15px; }
+    form button { background: #005599; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+    .social-icons a { color: white; margin: 0 10px; font-size: 1.2em; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>D-Sync Inventory Management</h1>
+  <p>Because when it comes to inventory — precision is everything.</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#why">Why Choose Us</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <h1>Welcome to D-Sync</h1>
+  <p>Your trusted partner for accurate, flexible, and professional inventory management in Ghana.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p><strong>Founders:</strong> Agbeka Darlington & Edward Geli</p>
+  <p>We help businesses take control of their inventory with accuracy and efficiency. Our core values include Accuracy, Integrity, Efficiency, Innovation, and Teamwork.</p>
+  <p><strong>Vision:</strong> To become the leading inventory solutions provider in Ghana and beyond.</p>
+  <p><strong>Mission:</strong> To empower businesses with reliable inventory services that improve efficiency and scalability.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div><h3>Stock Counting</h3><p>On-site and system-based physical stock checks with accuracy verification.</p></div>
+    <div><h3>Inventory Analysis</h3><p>Detect overstocking, understocking, and shrinkage issues with insights.</p></div>
+    <div><h3>System Adjustments</h3><p>Match your system data with actual stock and reconcile records.</p></div>
+    <div><h3>Full Inventory Support</h3><p>End-to-end inventory assistance for businesses without in-house teams.</p></div>
+  </div>
+</section>
+
+<section id="clients">
+  <h2>Target Clients</h2>
+  <ul>
+    <li>Supermarkets & Mini-Marts</li>
+    <li>Warehouses & Wholesalers</li>
+    <li>Pharmacies & Clinics</li>
+    <li>Logistics & Distribution Companies</li>
+    <li>Trading & Production SMEs</li>
+  </ul>
+</section>
+
+<section id="why">
+  <h2>Why Choose D-Sync?</h2>
+  <ul>
+    <li>Trained, reliable field staff</li>
+    <li>Affordable and customized pricing</li>
+    <li>Fast response time</li>
+    <li>Clear, simple reporting</li>
+    <li>Local expertise with professionalism</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <input type="text" placeholder="Company Name">
+    <textarea placeholder="Your Message" rows="5"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p><strong>Email:</strong> info@dsyncgh.com<br>
+     <strong>Phone:</strong> +233 [Insert Number]<br>
+     <strong>Location:</strong> Accra, Ghana</p>
+  <div class="social-icons">
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="https://wa.me/233XXXXXXXXX" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 D-Sync Inventory Management. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
